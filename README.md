@@ -14,7 +14,7 @@ Project for ecommerce
 - Motivación: Porque me gustaría aprender cómo manejar una página web de comercio electrónico, en la vida real.
 - Finalidad de la Aplicación Web para el proyecto: Simplificar el proceso de compra de las personas al momento de comprar en una pagina web.
 
-## App Móvil: Quizz
+## App Móvil: Ecommerce Multiplataforma
 
 - Título del proyecto: Ecommerce Multiplataforma
 - Resumen del proyecto: Web con capacidad de almacenar datos y imagenes de productos, para la compra de estos.
