@@ -4,7 +4,7 @@ Project for ecommerce
 ## Integrantes
 - Christopher William Flores Rimac (Representante)
 
-![Ga](https://c.tenor.com/Oc4nf8N08jIAAAAC/mind-blow-galaxy.gif | width=100)
+
 
 <img src="https://c.tenor.com/Oc4nf8N08jIAAAAC/mind-blow-galaxy.gif" width="500" height="300" />
 
