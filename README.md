@@ -4,10 +4,6 @@ Project for ecommerce
 ## Integrantes
 - Christopher William Flores Rimac (Representante)
 
-
-
-<img src="https://c.tenor.com/Oc4nf8N08jIAAAAC/mind-blow-galaxy.gif" width="500" height="300" />
-
 ## Usuario Github y Correo UTEC
 - christopherwilliamflores / christopher.flores@utec.edu.pe
 
