@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shop-online';
+
+  showAuthor(){
+    alert("Christopher William Flores Rimac");
+  }
+
 }

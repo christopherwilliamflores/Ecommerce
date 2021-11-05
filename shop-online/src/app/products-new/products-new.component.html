@@ -1,0 +1,32 @@
+<form [formGroup]="productsForm" (ngSubmit)="addProduct(productsForm.value)" >
+  <div>
+    <label>product_id:</label>
+    <input type="text" formControlName = "product_id">
+  </div>
+  <div>
+    <label>product_name:</label>
+    <input type="text" formControlName="product_name">
+  </div>
+  <div>
+    <label>stock:</label>
+    <input type="number"  formControlName="stock">
+  </div>
+  <div>
+    <label>price:</label>
+    <input type="number" formControlName="price">
+  </div>
+  <div>
+    <label>category:</label>
+    <input type="text" formControlName="category">
+  </div>
+  <div>
+    <label>descripcion:</label>
+    <input type="text" formControlName="descripcion">
+  </div>
+
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+

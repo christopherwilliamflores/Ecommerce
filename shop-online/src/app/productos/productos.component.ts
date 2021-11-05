@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router'
 import {ProductsService} from '../_services/products.service';
 
 @Component({
@@ -9,7 +10,7 @@ import {ProductsService} from '../_services/products.service';
 
 export class ProductsTableComponent implements OnInit {
 
-  products = [
+  products: any[] = [
     {
       product_name: "Polo ",
       price: "20 ",
@@ -22,12 +23,18 @@ export class ProductsTableComponent implements OnInit {
 
 
 constructor(
-    private productsService: ProductsService
+    private productsService: ProductsService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
-    this.productsService.getProducts().subscribe(data => {
+    this.productsService.getProducts().subscribe((data) => {
       this.products = data;
     })
   }
+
+  navigateToDelete(product_id: any){
+    this.router.navigate(['/products/delete', product_id]);
+  }
+
 }
