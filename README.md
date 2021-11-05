@@ -21,6 +21,12 @@ Project for ecommerce
 - Motivación:  Porque me gustaría aprender cómo manejar la multiplataforma para distribuir apps.
 - Finalidad de la Aplicación Mobile para el proyecto: Simplificar el proceso de compra de las personas al momento de comprar en una aplicacion universal.
 
+| url | función |
+| :---: | :---: |
+| ```products/``` | Pagina principal con todos los productos |
+| ```products/new``` | Pagina donde pueden crear un nuevo proudcto|
+| ```products/delete``` | Borrar un producto |
+
 
 © 2021 GitHub, Inc.
 Terms

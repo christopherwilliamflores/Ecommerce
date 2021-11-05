@@ -11,7 +11,7 @@ export class ProductsViewComponent implements OnInit {
   product:any;
   constructor(
     private activateRoute: ActivatedRoute,
-    private productsService: ProductsService
+    private productService: ProductsService
   ) { }
 
   ngOnInit(): void {
@@ -19,7 +19,7 @@ export class ProductsViewComponent implements OnInit {
       data =>{
         var product_id = data.get('product_id');
 
-        this.productsService.getProductsById(product_id).subscribe(
+        this.productService.getProductsById(product_id).subscribe(
           response => {
             console.log(response);
             this.product = response;
@@ -27,9 +27,8 @@ export class ProductsViewComponent implements OnInit {
           error => {
             console.error(error);
           }
-        )
-      }
-    )
-  }
-
+         )
+        }
+      );
+    }
 }

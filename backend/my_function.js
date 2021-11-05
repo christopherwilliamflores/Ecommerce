@@ -22,7 +22,7 @@ function getProductos(req,res){
     //Step 1 : Establecer la conexion
     connection.connect();
     //Step 2 : Mandar el query
-    var myQuery =  " SELECT product_id,product_name,price " +
+    var myQuery =  " SELECT * " +
                    " FROM products;";
 
     connection.query(myQuery, function(error, results, fields){
