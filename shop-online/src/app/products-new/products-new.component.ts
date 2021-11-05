@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ProductService } from '../_services/products.service';
+import { ProductsService } from '../_services/products.service';
+
 @Component({
   selector: 'app-products-new',
   templateUrl: './products-new.component.html',

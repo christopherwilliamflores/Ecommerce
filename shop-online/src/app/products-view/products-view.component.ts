@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {ProductService} from '../_services/products.service';
+import {ProductsService} from '../_services/products.service';
 
 @Component({
   selector: 'app-products-view',
@@ -11,7 +11,7 @@ export class ProductsViewComponent implements OnInit {
   product:any;
   constructor(
     private activateRoute: ActivatedRoute,
-    private productsService: ProductService
+    private productsService: ProductsService
   ) { }
 
   ngOnInit(): void {
